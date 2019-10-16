@@ -1,0 +1,18 @@
+$linkcolor: #4d4c4c;
+$linkhover: #49bab6;
+
+
+a {
+    text-decoration: none;
+    color: $linkcolor;
+}
+
+a:hover {
+    color: $linkhover;
+}
+
+
+li {
+    display: inline;
+}
+

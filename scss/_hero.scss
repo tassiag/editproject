@@ -1,0 +1,27 @@
+$fontsizeh1: 36px;
+$fontsizep: 16px;
+
+
+.hero {
+    background: red;
+}
+
+.hero-content {
+background: green;
+text-align: center;
+max-width: 80%;
+}
+
+.hero-content h1 {
+    font-size: $fontsizeh1;
+    text-transform: uppercase;
+}
+
+.hero-content p {
+    font-size: $fontsizep;
+   
+}
+
+.link-btn {
+    border: 1px solid black;
+}
