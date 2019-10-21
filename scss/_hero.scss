@@ -1,27 +1,19 @@
-$fontsizeh1: 36px;
-$fontsizep: 16px;
-
-
 .hero {
-    background: red;
-}
-
-.hero-content {
-background: green;
-text-align: center;
-max-width: 80%;
-}
-
-.hero-content h1 {
-    font-size: $fontsizeh1;
-    text-transform: uppercase;
-}
-
-.hero-content p {
-    font-size: $fontsizep;
-   
-}
-
-.link-btn {
-    border: 1px solid black;
+  height: 5%;
+  .hero-content {
+    text-align: center;
+    padding: 80px 300px;
+    h1 {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 50px;
+    }
+    .link-btn {
+      border: 1px solid #89ccca;
+      padding: 10px 20px;
+      letter-spacing: 0.1em;
+      font-size: 13px;
+    }
+  }
 }

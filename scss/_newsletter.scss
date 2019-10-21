@@ -1,0 +1,32 @@
+.newsletter {
+  height: 2%;
+  padding: 40px 300px 10px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 30px auto;
+
+  h2 {
+    margin-bottom: 15px;
+  }
+  .newsform {
+    margin: 40px auto 40px;
+    box-sizing: border-box;
+
+    .submit-btn {
+      background-color: #f0f0f0;
+      border: 1px solid $mintcolor;
+      font-family: $mainfont;
+      padding: 10px;
+    }
+
+    .submit-btn:hover {
+      background-color: $yellowcolor;
+    }
+
+    .write-email {
+      padding: 10px;
+      border: 1px solid $mintcolor;
+      font-family: $mainfont;
+    }
+  }
+}

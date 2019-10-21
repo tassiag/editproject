@@ -1,0 +1,30 @@
+footer {
+  background: #f0f0f0;
+  height: 5%;
+  padding: 20px;
+  font-size: 13px;
+  .first-list,
+  .second-list,
+  .third-list {
+    border-right: 1px solid $mintcolor;
+    display: inline-block;
+    padding: 20px 220px 30px 20px;
+  }
+
+  .p-footer {
+    font: $secondaryfont;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}
+
+.social-list {
+  display: inline-block;
+  padding: 20px 200px 30px 20px;
+}
+
+.first-list:hover,
+.second-list:hover,
+.third-list:hover {
+  border-right: 1px solid $yellowcolor;
+}

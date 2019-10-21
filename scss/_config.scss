@@ -1,5 +1,45 @@
-$maincolor: white;
+/*fonts*/
+$secondaryfont: "Roboto Slab", serif;
+$mainfont: "Lato", sans-serif;
+
+/*font size*/
+$fontsizeh1: 42px;
+$fontsizeh2: 20px;
+$fontsizetext: 14px;
+
+/*website colors*/
+
+$maintextcolor: #595959;
+$mintcolor: #89ccca;
+$greycolor: #a1a1a1;
+$yellowcolor: #f5f3b3;
+$lightgreycolor: #cfcfcf;
 
 body {
-    background-color: $maincolor;
+  color: $maintextcolor;
+  font-family: $mainfont;
+}
+
+/*headings*/
+h1,
+h2 {
+  text-transform: uppercase;
+  font-family: $secondaryfont;
+}
+
+h1 {
+  font-size: $fontsizeh1;
+}
+
+h2 {
+  font-size: $fontsizeh2;
+}
+
+a {
+  color: $greycolor;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $mintcolor;
 }
