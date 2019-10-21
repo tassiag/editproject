@@ -12,7 +12,7 @@ $fontsizetext: 14px;
 $maintextcolor: #595959;
 $mintcolor: #89ccca;
 $greycolor: #a1a1a1;
-$yellowcolor: #f5f3b3;
+$yellowcolor: #e6c670;
 $lightgreycolor: #cfcfcf;
 
 body {
@@ -42,4 +42,11 @@ a {
 
 a:hover {
   color: $mintcolor;
+}
+
+.link-btn {
+  border: 1px solid #89ccca;
+  padding: 10px 20px;
+  letter-spacing: 0.1em;
+  font-size: 13px;
 }
