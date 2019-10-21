@@ -1,14 +1,24 @@
 header {
-  background: $lightgreycolor;
-
+  background: $superlightgreycolor;
   padding: 20px 30px;
 
   .list-nav {
-    display: inline;
+    display: inline-block;
     padding-right: 20px;
   }
 
-  .teste {
-    text-align: center;
-  }
+
+}
+
+.outros {
+  padding: auto 15px;
+}
+.search, .search-button {
+  float: right;
+}
+
+.right-side {
+  
+ float: right;
+justify-content: space-between;
 }

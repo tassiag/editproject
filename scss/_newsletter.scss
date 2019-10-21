@@ -13,19 +13,20 @@
     box-sizing: border-box;
 
     .submit-btn {
-      background-color: #f0f0f0;
-      border: 1px solid $mintcolor;
+      background-color: $lightgreycolor;
+      border: 2px solid $mintcolor;
       font-family: $mainfont;
       padding: 10px;
     }
 
     .submit-btn:hover {
-      background-color: $yellowcolor;
+      border:2px solid $yellowcolor;
+      background-color:$superlightgreycolor;
     }
 
     .write-email {
       padding: 10px;
-      border: 1px solid $mintcolor;
+      border: 2px solid $mintcolor;
       font-family: $mainfont;
     }
   }
