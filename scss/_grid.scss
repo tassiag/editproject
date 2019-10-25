@@ -1,10 +1,39 @@
 .grid {
   width: 80%;
-  height: 650px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
+  display: grid;
+  grid-template-rows: 190px 190px 190px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
 }
 
+.grid-content {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.item {
+  background: $yellowcolor;
+  color: white;
+  padding: 10px;
+}
+
+.item:nth-child(odd) {
+  background: $lightmintcolor;
+}
+
+.item1 {
+  grid-row: span 2;
+}
+
+.item10 {
+  grid-row: span 2;
+}
+
+/*
 .sq1 {
   background: $yellowcolor;
   width: 25%;
@@ -54,10 +83,4 @@
   height: 50%;
   float: left;
 }
-
-.grid-content {
-  position: relative;
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
-}
+*/
