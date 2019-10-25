@@ -1,18 +1,45 @@
 header {
-  nav {
+  position: relative;
+  font-size: 0;
+  #nav {
+    max-width:50%;
     padding: 20px 30px;
-
-    margin: auto;
-
+    font-size: 12px;
+   display: inline-block;
     .list-nav {
-      padding-right: 20px;
+      padding: 0 20px;
       display: inline-block;
-    }
-
-    .right-nav {
-      display: inline-block;
-      padding-left: 20px;
-      margin-right: 10px;
     }
   }
+#user {
+  max-width: 50%;
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  font-size: 12px;
+  padding: 20px 30px;
+ float: right;
+  .nav-ul {
+  
+  .right {
+    float: right;
+  padding: 0 10px;
+    margin: 0 5px;
+ 
+  }
+
+  .search {
+    margin-right:5px;
+    border: 1px solid #89ccca;
+    font-family: $mainfont;
+    
+  }
+
+  .submit-btn {
+    border: none;
+    background: transparent;
+  }
+}
+}
+
 }
