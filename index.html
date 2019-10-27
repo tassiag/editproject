@@ -59,8 +59,12 @@
       href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/c063af1f03.js" crossorigin="anonymous"></script>
+  </head>
     <!--Links-->
     <link rel="stylesheet" href="css/main.css" />
+
+
   </head>
   <!--GA-->
 
@@ -91,25 +95,21 @@
 
   <body>
     <header>
-      <nav>
+      <div id="nav">
         <ul class="nav-ul">
           <li class="list-nav"><p>LOGO</p></li>
           <li class="list-nav"><a class="teste" href="">Home</a></li>
           <li class="list-nav"><a class="teste" href="">Home</a></li>
           <li class="list-nav"><a class="teste" href="">Home</a></li>
+        </div>
+         
+        <div id="user">
+          <ul class="nav-ul">
+          <li class="list-nav right"> <form action="/action_page.php"><input class="search" type="text" placeholder="Search"> <button class="submit-btn" type="submit"><i class="fas fa-search"></i></button></form></li>
+          <li class="list-nav right"><a href="fhf">Shopping cart <i class="fas fa-shopping-basket"></i></a></li>
+          <li class="list-nav right"><a href="fhf">Login  <i class="far fa-user"></i></a></li>
         </ul>
-      </nav>
-
-      <section class="nav-section">
-        <ul class="right-ul">
-          <li class="right-nav"><a href="fhf">Basket</a></li>
-          <li class="right-nav"><a href="fhf">Login</a></li>
-          <input class="right-nav" type="text" placeholder="Search" />
-          <button type="submit" class="search-button right-nav">
-            <i class="fa fa-search"></i>
-          </button>
-        </ul>
-      </section>
+      </div>
     </header>
 
     <section class="hero">
@@ -123,6 +123,8 @@
     </section>
 
     <section class="grid">
+
+      <!-- com grid 
       <div class="item item1 grid-content"><p class="grid-content">1</p></div>
       <div class="item"><p class="grid-content">2</p></div>
       <div class="item grid-content"><p class="grid-content">3</p></div>
@@ -132,30 +134,34 @@
       <div class="item item10 grid-content"><p class="grid-content">7</p></div>
       <div class="item grid-content"><p class="grid-content">8</p></div>
       <div class="item grid-content"><p class="grid-content">9</p></div>
-      <div class="item grid-content"><p class="grid-content">10</p></div>
+      <div class="item grid-content"><p class="grid-content">10</p></div>-->
 
-      <!--
-      <div class="sq1">
-        <p class="grid-content">conteudo 1</p>
+      
+      <div class="column">
+        
+     <div class="item"><p class="grid-content">coluna 1</p></div>
+     <div class="item"><p class="grid-content">coluna 1</p></div>
       </div>
-      <div class="sq2">
-        <p class="grid-content">conteudo 1</p>
+      <div class="column">
+       
+        <div class="item"> <p class="grid-content">coluna 2</p> </div>
+        <div class="item"> <p class="grid-content">coluna 2</p> </div>
+        <div class="item">  <p class="grid-content">coluna 2</p></div>
+       
       </div>
-      <div class="sq3">
-        <p class="grid-content">conteudo 1</p>
+      <div class="column">
+        <p class="grid-content">coluna 3</p>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
       </div>
-      <div class="sq4">
-        <p class="grid-content">conteudo 1</p>
-      </div>
-      <div class="sq5">
-        <p class="grid-content">conteudo 1</p>
-      </div>
-      <div class="sq6">
-        <p class="grid-content">conteudo 1</p>
-      </div>
-      <div class="sq7">
-        <p class="grid-content">conteudo 1</p>
-      </div>-->
+
+      <div class="column">
+          <p class="grid-content">coluna 3</p>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+      
     </section>
 
     <section class="newsletter">
