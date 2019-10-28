@@ -1,24 +1,64 @@
 .grid {
-  width:80%;
-  height: 900px;
+  background: #eee;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+
+  .grid-container {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+
+    .column {
+      width: 220px;
+      background: yellow;
+      border: 1px solid green;
+      display: inline-block;
+      float: left;
+
+      .item {
+        background: blue;
+        border: 1px solid pink;
+        height: 220px;
+      }
+
+      .xl-item {
+        height: 440px;
+        background: lightblue;
+      }
+    }
+  }
+}
+
+/*
+  width: 80%;
   margin: 0 auto;
   text-align: center;
+  background: $lightmintcolor;
+
+  .item {
+    background: blue;
+    height: 100px;
+  }
+
+  .column {
+    background: yellow;
+    display: inline;
+  }
+}*/
+
+/* aplicar na tag GRID
   display: grid;
   grid-template-rows: 2r 2fr 2fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1px;
-  justify-content: center;
-  font-size: 0;
-}
+  grid-gap: 1px;*/
 
+/*
 .grid-content {
-  position: relative;
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
-}
-
-
+}*/
 
 /*
 .item {
@@ -38,17 +78,3 @@
 .item10 {
   grid-row: span 2;
 }*/
-
-
-.item {
-font-size: 14px;;
-  text-align: center;
-  height: 300px;
- 
-}
-
-.column {
-  background: $lightmintcolor;
- 
-}
-
