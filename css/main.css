@@ -188,7 +188,6 @@ footer {
     margin: 0 auto; }
     .grid .grid-container .column {
       width: 220px;
-      border: 1px solid white;
       float: left; }
       .grid .grid-container .column .item {
         background: #ebedec;
