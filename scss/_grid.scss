@@ -1,34 +1,57 @@
 .grid {
-  background: #eee;
   box-sizing: border-box;
   width: 80%;
   margin: 0 auto;
+  text-align: center;
+  margin-top:80px;
+
 
   .grid-container {
-    box-sizing: border-box;
     display: inline-block;
     text-align: center;
+    margin: 0 auto;
+   
 
     .column {
       width: 220px;
-      background: yellow;
-      border: 1px solid green;
-      display: inline-block;
+      border: 1px solid white;
       float: left;
+      
 
       .item {
-        background: blue;
-        border: 1px solid pink;
+        background: $superlightgreycolor;
+        border: 1px solid white;
         height: 220px;
+        
+        p {
+          color: white;
+        
+        }
       }
 
-      .xl-item {
-        height: 440px;
-        background: lightblue;
+      :nth-child(even) {
+        background: $yellowcolor;
       }
+
+     .xl-item {
+        height: 440px;
+        background: $lightmintcolor;
+
+      
+      }
+
+    }
     }
   }
-}
+
+
+
+
+
+/*
+      .second-color-item {
+        background: $yellowcolor;
+      }*/
 
 /*
   width: 80%;
