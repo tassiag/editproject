@@ -19,6 +19,7 @@ header {
     font-size: 12px;
     padding: 20px 30px;
     float: right;
+
     .nav-ul {
       .right {
         float: right;
@@ -26,15 +27,28 @@ header {
         margin: 0 5px;
       }
 
+      .fas {
+        padding-left: 5px;
+      }
+
+      .fa-search {
+        background: $mintcolor;
+        letter-spacing: 4px;
+        line-height: 20px;
+      }
+
       .search {
-        margin-right: 5px;
-        border: 1px solid #89ccca;
+        border: 1px solid $mintcolor;
         font-family: $mainfont;
+        font-size: 12px;
+        padding: 2px 10px;
+        width: 100px;
       }
 
       .submit-btn {
         border: none;
         background: transparent;
+        color: white;
       }
     }
   }

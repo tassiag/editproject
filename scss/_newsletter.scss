@@ -17,11 +17,12 @@
       border: 2px solid $mintcolor;
       font-family: $mainfont;
       padding: 10px;
+      transition: all 0.2s ease-in-out;
     }
 
     .submit-btn:hover {
-      border:2px solid $yellowcolor;
-      background-color:$superlightgreycolor;
+      border: 2px solid $yellowcolor;
+      background-color: $superlightgreycolor;
     }
 
     .write-email {

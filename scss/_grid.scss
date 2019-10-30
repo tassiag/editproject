@@ -3,29 +3,25 @@
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  margin-top:80px;
-
+  margin-top: 80px;
 
   .grid-container {
     display: inline-block;
     text-align: center;
     margin: 0 auto;
-   
 
     .column {
       width: 220px;
-     
+
       float: left;
-      
 
       .item {
         background: $superlightgreycolor;
         border: 1px solid white;
         height: 220px;
-        
+
         p {
           color: white;
-        
         }
       }
 
@@ -33,20 +29,13 @@
         background: $yellowcolor;
       }
 
-     .xl-item {
+      .xl-item {
         height: 440px;
         background: $lightmintcolor;
-
-      
       }
-
-    }
     }
   }
-
-
-
-
+}
 
 /*
       .second-color-item {
