@@ -1,5 +1,4 @@
 .grid {
-  box-sizing: border-box;
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -7,31 +6,38 @@
 
   .grid-container {
     display: inline-block;
-    text-align: center;
-    margin: 0 auto;
+    font-size: 0;
+    width:1180px;
+    height: 1000px;
+
+ 
+  
 
     .column {
       width: 220px;
-
-      float: left;
+      display: inline-block;
+      
 
       .item {
         background: $superlightgreycolor;
         border: 1px solid white;
         height: 220px;
+        
 
         p {
           color: white;
+          margin-top: 50%;
+          transform: translateY(-50%);
+          font-size: 14px;
+      
+       
         }
-      }
-
-      :nth-child(even) {
-        background: $yellowcolor;
       }
 
       .xl-item {
         height: 440px;
         background: $lightmintcolor;
+
       }
     }
   }
