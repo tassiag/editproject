@@ -7,37 +7,28 @@
   .grid-container {
     display: inline-block;
     font-size: 0;
-    width:1180px;
-    height: 1000px;
-
- 
-  
 
     .column {
       width: 220px;
       display: inline-block;
-      
+      float: left;
 
       .item {
         background: $superlightgreycolor;
         border: 1px solid white;
         height: 220px;
-        
 
         p {
           color: white;
           margin-top: 50%;
           transform: translateY(-50%);
           font-size: 14px;
-      
-       
         }
       }
 
       .xl-item {
         height: 440px;
         background: $lightmintcolor;
-
       }
     }
   }

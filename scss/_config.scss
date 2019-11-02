@@ -60,3 +60,10 @@ a {
     border: 1px solid $yellowcolor;
   }
 }
+
+hr {
+  height: 1px;
+  background-color: $lightgreycolor;
+  border: none;
+  width: 80%;
+}
