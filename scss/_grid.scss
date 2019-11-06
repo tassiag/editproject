@@ -1,89 +1,37 @@
 .grid {
+  max-width: 1180px;
   width: 80%;
   margin: 0 auto;
-  text-align: center;
-  margin-top: 80px;
-
-  .grid-container {
+  background: red;
+  height: 885px;
+  font-size: 0;
+  .column {
+    font-size: 12px;
+    max-width: 25%;
+    width: 100%;
     display: inline-block;
-    font-size: 0;
+    vertical-align: top;
+    height: 100%;
+    background: $mintcolor;
+    .item {
+      height: 33.33%;
+      width: 100%;
+      background: $lightmintcolor;
 
-    .column {
-      width: 220px;
-      display: inline-block;
-      float: left;
-
-      .item {
-        background: $superlightgreycolor;
-        border: 1px solid white;
-        height: 220px;
-
-        p {
-          color: white;
-          margin-top: 50%;
-          transform: translateY(-50%);
-          font-size: 14px;
-        }
+      &:nth-of-type(odd) {
+        background: $yellowcolor;
       }
-
-      .xl-item {
-        height: 440px;
-        background: $lightmintcolor;
+      article {
+        position: relative;
+        top: 50%;
+        transform: translatey(-50%);
+        width: 90px;
+        margin: 0 auto;
+      }
+      &.xl {
+        height: 66.66%;
+        background: $superlightgreycolor;
       }
     }
   }
 }
-
-/*
-      .second-color-item {
-        background: $yellowcolor;
-      }*/
-
-/*
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  background: $lightmintcolor;
-
-  .item {
-    background: blue;
-    height: 100px;
-  }
-
-  .column {
-    background: yellow;
-    display: inline;
-  }
-}*/
-
-/* aplicar na tag GRID
-  display: grid;
-  grid-template-rows: 2r 2fr 2fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1px;*/
-
-/*
-.grid-content {
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
-}*/
-
-/*
-.item {
-  background: $yellowcolor;
-  color: white;
-  padding: 10px;
-}
-
-.item:nth-child(odd) {
-  background: $lightmintcolor;
-}
-
-.item1 {
-  grid-row: span 2;
-}
-
-.item10 {
-  grid-row: span 2;
-}*/

@@ -1,5 +1,64 @@
-.contact-hero {
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
+.contact {
+  .contact-hero {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .form-area {
+    width: 60%;
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .name,
+  .email {
+    text-align: left;
+  }
+
+  #name,
+  #email,
+  #message,
+  .dropdown {
+    border: 1px solid $mintcolor;
+    padding: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    resize: none;
+  }
+
+  #message {
+    height: 150px;
+  }
+
+  .half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+  }
+
+  .left {
+    margin-right: 2%;
+  }
+
+  .right {
+    width: 50%;
+  }
+
+  #input-submit {
+    width: 20%;
+    cursor: pointer;
+    border: 1px solid $mintcolor;
+    color: white;
+    padding: 10px;
+    font-size: 11px;
+    background: $mintcolor;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+    &:hover {
+      border: 1px solid $yellowcolor;
+    }
+  }
 }

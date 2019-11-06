@@ -1,55 +1,59 @@
-header {
-  position: relative;
-  font-size: 0;
-  #nav {
-    max-width: 50%;
-    padding: 20px 30px;
-    font-size: 12px;
-    display: inline-block;
-    .list-nav {
-      padding: 0 20px;
-      display: inline-block;
-    }
-  }
-  #user {
-    max-width: 50%;
-    display: inline-block;
-    text-align: right;
-    width: 100%;
-    font-size: 12px;
-    padding: 20px 30px;
-    float: right;
+.logo {
+  width: 80px;
+}
 
-    .nav-ul {
-      .right {
-        float: right;
-        padding: 0 10px;
-        margin: 0 5px;
-      }
+.nav-list {
+  /* removes bulleting*/
+  list-style-type: none;
+  /*removes space */
+  padding: 0;
+  margin: 0 10px;
+  /* handle element width automatically */
+  overflow: auto;
+}
+.float-lt {
+  float: left;
+}
+.float-rt {
+  float: right;
+}
+.menu {
+  /* remove underline */
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 15px;
+  /* <a></a> block-elements, when hovered       (mouse-over) will highlight whole element     rather than just text*/
 
-      .fas {
-        padding-left: 5px;
-      }
+  /*text-align: center;*/
+  padding: 10px 10px 5px;
+}
 
-      .fa-search {
-        background: $mintcolor;
-        letter-spacing: 4px;
-        line-height: 20px;
-      }
+.icon-menu {
+  margin-left: 5px;
+  font-size: 10px;
+}
 
-      .search {
-        border: 1px solid $mintcolor;
-        font-family: $mainfont;
-        font-size: 12px;
-        padding: 2px 10px;
-        width: 100px;
-      }
+form.search input[type="text"] {
+  font-size: 11px;
+  border: 1px solid $mintcolor;
+  float: left;
+  width: 65px;
+  font-family: $mainfont;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
-      .submit-btn {
-        border: none;
-        background: transparent;
-        color: white;
-      }
-    }
-  }
+form.search button {
+  float: left;
+  width: 25px;
+  background: $mintcolor;
+  color: white;
+  font-size: 11px;
+  border: 1px solid $mintcolor;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.search button:hover {
+  border: 1px solid $yellowcolor;
 }

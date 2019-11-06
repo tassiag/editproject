@@ -94,25 +94,29 @@
   </script>
 
   <body>
-    <header>
-      <div id="nav">
-        <ul class="nav-ul">
-          <li class="list-nav"><p>LOGO</p></li>
-          <li class="list-nav"><a class="teste" href="">Home</a></li>
-          <li class="list-nav"><a class="teste" href="">Home</a></li>
-          <li class="list-nav"><a class="teste" href="">Home</a></li>
-        </div>
-         
-        <div id="user">
-          <ul class="nav-ul">
-          <li class="list-nav right"> <form><input class="search" type="text" placeholder="Search"> <button class="submit-btn" type="submit"><i class="fas fa-search"></i></button></form></li>
-          <li class="list-nav right"><a href="fhf">Shopping cart <i class="fas fa-shopping-basket"></i></a></li>
-          <li class="list-nav right"><a href="fhf">Login  <i class="fas fa-user"></i></a></li>
-          </ul>
-      </div>
-      
-    </header>
 
+
+  <header>
+
+    <nav class="navbar">
+    <ul class="nav-list">
+    <li class="float-lt menu"><a href="#"><img class="logo" src="https://i.imgur.com/8wpmLit.png"></a></li>
+    <li class="float-lt menu"><a href="#">Home</a></li>
+    <li class="float-lt menu"><a href="#">Shop</a></li>
+    <li class="float-lt menu"><a href="#">About us</a></li>
+    <li class="float-rt menu">
+      <form class="search">
+        <input type="text" placeholder="Search" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </li>
+       <li class="float-rt menu"><a href="fhf">Shopping cart <i class="fas fa-shopping-basket icon-menu"></i></a></li>
+       <li class="float-rt menu"><a href="fhf">Login <i class="fas fa-user icon-menu"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+<hr>
     <section class="hero">
       <div class="hero-content  hero-bg">
         <h1>Plants & decor</h1>
@@ -123,10 +127,56 @@
       </div>
     </section>
 
+    <section class="grid">
+      <!--coll-->
+      <div class="column">
+        <div class="item xl">
+          <article> <p>Text here!</p>
+          </article>
+        </div>
+        <div class="square">
+          <article><p>Text here! Text here! Text here! Text here!</p> </article>
+        </div>
+      </div>
+      <!--coll-->
+      <div class="column">
+        <div class="item">
+          <article> <p>Text here!</p>
+          </article>
+        </div>
+        <div class="item">
+          <article> <p>Text here!</p></article>
+        </div>
+        <div class="item">
+          <article><p>Text here!</p> </article>
+        </div>
+      </div>
+      <!--coll-->
+      <div class="column">
+        <div class="item">
+          <article><p>Text here!</p></article>
+        </div>
+        <div class="item">
+          <article> <p>Text here!</p></article>
+        </div>
+        <div class="item">
+          <article><p>Text here!</p></article>
+        </div>
+      </div>
+      <!--coll-->
+      <div class="column">
+        <div class="item">
+          <article><p>Text here!</p></article>
+        </div>
+        <div class="item xl">
+          <article> <p>Text here!</p> </article>
+        </div>
+      </div>
+    </section>
   
+    <!-- GRID PRIMERA
     <section class="grid">
      <div class="grid-container">
-      
       <div class="column"> 
         <div class="item xl-item"><p>item01</p></div>
         <div class="item"><p>item02</p></div>
@@ -150,21 +200,7 @@
       </div>
           
       </div>
-    </section>
-  
-
-          <!-- com grid 
-                <div class="item item1 grid-content"><p class="grid-content">1</p></div>
-                <div class="item"><p class="grid-content">2</p></div>
-                <div class="item grid-content"><p class="grid-content">3</p></div>
-                <div class="item grid-content"><p class="grid-content">4</p></div>
-                <div class="item grid-content"><p class="grid-content">5</p></div>
-                <div class="item grid-content"><p class="grid-content">6</p></div>
-                <div class="item item10 grid-content"><p class="grid-content">7</p></div>
-                <div class="item grid-content"><p class="grid-content">8</p></div>
-                <div class="item grid-content"><p class="grid-content">9</p></div>
-                <div class="item grid-content"><p class="grid-content">10</p></div>-->
-
+    </section> -->
  
 
     <section class="newsletter">
@@ -181,11 +217,14 @@
       </form>
     </section>
 
-    <section class="carousel">
-      <p>Carrossel</p>
-    </section>
+<section class="carousel">
+
+  <div class="the-carousel">
+    <p>Carrossel</p>
+  </div>
 
     <footer>
+
       <div class="first-list">
         <ul>
           <h4 class="p-footer">Help</h4>
@@ -203,6 +242,7 @@
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
       </div>
+
       <div class="third-list">
           <ul>
             <h4 class="p-footer">My account</h4>
@@ -211,15 +251,16 @@
             <li><a href="#">Wishlist</a></li>
           </ul>
       </div>
+
       <div class="social-list">
         <ul>
           <h4 class="p-footer">Follow us</h4>
           <a href=""><i class="fab fa-twitter"></i></a>
           <a href=""><i class="fab fa-facebook-f"></i></a>
           <a href=""><i class="fab fa-instagram"></i></a>
-         
         </ul>
       </div>
     </footer>
+
   </body>
 </html>
