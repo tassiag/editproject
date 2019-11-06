@@ -8,11 +8,14 @@ footer {
 
   .first-list,
   .second-list,
-  .third-list {
+  .third-list, .social-list {
     border-right: 1px solid $mintcolor;
     display: inline-block;
     padding: 20px 120px 30px 10px;
     line-height: 10px;
+    & .social-list {
+      border: none;
+    }
   }
 
   .p-footer {
