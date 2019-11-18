@@ -83,12 +83,6 @@ li {
 
 /*mixins*/
 
-@mixin span-nav {
-  font-size: 12px;
-  display: inline-block;
-  margin: 20px 10px;
-}
-
 /*mixins media query*/
 
 /*
@@ -97,21 +91,15 @@ li {
     @content;
   }
 }*/
+
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
     @media (max-width: 600px) {
       @content;
     }
   }
-
   @if $breakpoint == tablet {
-    @media (max-width: 1200px) {
-      @content;
-    }
-  }
-
-  @if $breakpoint == desktop {
-    @media (min-width: 1201px) {
+    @media (min-width: 601px) and (max-width: 900px) {
       @content;
     }
   }

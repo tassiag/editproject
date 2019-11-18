@@ -10,8 +10,12 @@
       margin-bottom: 20px;
       color: white;
 
-      @include mq-phone {
-        font-size: 23px;
+      @include respond(phone) {
+        font-size: 12px;
+      }
+
+      @include respond(tablet) {
+        font-size: 32px;
       }
     }
     p {
@@ -19,6 +23,10 @@
       color: white;
       font-weight: 400;
       text-transform: uppercase;
+
+      @include respond(phone) {
+        font-size: 10px;
+      }
     }
 
     .link-btn {
