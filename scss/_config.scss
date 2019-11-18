@@ -4,7 +4,7 @@ $mainfont: "Lato", sans-serif;
 
 /*font size*/
 $fontsizeh1: 56px;
-$fontsizeh2: 22px;
+$fontsizeh2: 20px;
 $fontsizetext: 13px;
 
 /*website colors*/
@@ -28,6 +28,7 @@ h1,
 h2 {
   text-transform: uppercase;
   font-family: $secondaryfont;
+  font-weight: bold;
 }
 
 h1 {
@@ -44,6 +45,8 @@ a {
     color: $mintcolor;
   }
 }
+
+/*button*/
 
 .link-btn {
   border: 1px solid #89ccca;
@@ -67,7 +70,7 @@ hr {
   border: none;
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .sections {
@@ -76,4 +79,40 @@ hr {
 
 li {
   line-height: 20px;
+}
+
+/*mixins*/
+
+@mixin span-nav {
+  font-size: 12px;
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+/*mixins media query*/
+
+/*
+@mixin mq-phone {
+  @media (max-width: 600px) {
+    @content;
+  }
+}*/
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == tablet {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == desktop {
+    @media (min-width: 1201px) {
+      @content;
+    }
+  }
 }

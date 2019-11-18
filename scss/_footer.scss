@@ -6,37 +6,47 @@ footer {
   width: 80%;
   margin: auto;
 
-  .first-list,
-  .second-list,
-  .third-list, .social-list {
-    border-right: 1px solid $mintcolor;
-    display: inline-block;
-    padding: 20px 120px 30px 10px;
-    line-height: 10px;
-    & .social-list {
+  .wrapper {
+    max-width: 1180px;
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    &:hover {
       border: none;
     }
+
+    div {
+      border-right: 1px solid $mintcolor;
+      line-height: 10px;
+      flex-basis: 25%;
+
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      flex-flow: row;
+
+      &:hover {
+        border-right: 1px solid $yellowcolor;
+      }
+
+      h2 {
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+
+      &.social-list {
+        border-right: none;
+        li {
+          display: inline;
+        }
+
+        i {
+          padding-top: 15px;
+          font-size: 15px;
+          padding-right: 12px;
+        }
+      }
+    }
   }
-
-  .p-footer {
-    font: $secondaryfont;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-}
-
-.social-list {
-  display: inline-block;
-  padding: 20px 130px 30px 20px;
-
-  .fab {
-    font-size: 22px;
-    padding-right: 12px;
-  }
-}
-
-.first-list:hover,
-.second-list:hover,
-.third-list:hover {
-  border-right: 1px solid $yellowcolor;
 }
