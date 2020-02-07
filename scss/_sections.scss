@@ -1,0 +1,17 @@
+/*!! sections links, including the active one !! */
+
+.section-page {
+  height: 40px;
+  margin: 0 auto;
+  text-align: left;
+  text-transform: uppercase;
+
+  .section-link {
+    margin-right: 10px;
+  }
+
+  .section-link2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

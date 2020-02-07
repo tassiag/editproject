@@ -1,10 +1,6 @@
 .the-carousel {
   background: $lightgreycolor;
   height: 100px;
-  text-align: center;
-  margin: auto;
-  width: 80%;
-  margin-bottom: 50px;
 
   p {
     top: 50%;
@@ -13,9 +9,9 @@
   }
 }
 
+/*sugestion text*/
 .sugestion {
-  text-align: center;
   margin: 30px 0;
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
 }

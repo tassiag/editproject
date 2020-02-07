@@ -1,1 +1,1031 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}*{box-sizing:border-box}a{text-decoration:none}body{color:#595959;font-family:"Lato",sans-serif;height:100%}h1,h2{text-transform:uppercase;font-family:"Roboto Slab",serif;font-weight:bold}h1{font-size:56px}h2{font-size:20px}a{color:#a1a1a1}a:hover{color:#95dbd9}.link-btn{border:1px solid #89ccca;padding:15px 30px;letter-spacing:0.1em;font-size:13px;font-family:"Roboto Slab",serif;text-transform:uppercase;min-width:100px;max-width:300px;display:inline-block;transition:all 0.2s ease-in-out}.link-btn:hover{border:1px solid #f5d378}hr{height:1px;background-color:#cfcfcf;border:none;width:80%;margin:0 auto;margin-bottom:15px}.sections{margin:20px 20px}li{line-height:20px}nav{width:100%;height:50px;margin:15px auto}nav .logo-menu{float:left;margin-top:10px;margin-left:15px;margin-right:15px}nav .logo-menu .logo{height:30px}.firstlist{float:left;margin-top:15px}.firstlist ul{list-style-type:none;font-size:13px}.firstlist ul li{display:inline;padding:10px 10px 5px}.firstlist ul li .fas{margin-left:5px}.secondlist{float:right;margin-top:15px;margin-right:15px}.secondlist ul{list-style-type:none;font-size:13px}.secondlist ul li{display:inline;padding:10px 10px 5px}.secondlist ul li .fas{margin-left:5px}.search-form{float:right;margin-right:20px}.search-form .search{font-size:19x;border:1px solid #95dbd9;width:130px;font-family:"Lato",sans-serif;padding-left:5px;padding-right:5px;height:25px}.search-form button{float:right;width:25px;height:25px;background:#95dbd9;color:white;font-size:11px;border:0;border-left:none;cursor:pointer}.search-form button:hover{border:1px solid #f5d378}footer{background:#f0f0f0;height:5%;padding:10px;font-size:13px;width:80%;margin:auto}footer .wrapper{max-width:1180px;border:none;margin:0 auto;display:flex;justify-content:space-between}footer .wrapper:hover{border:none}footer .wrapper div{border-right:1px solid #95dbd9;line-height:10px;flex-basis:25%;padding-left:15px;padding-top:10px;padding-bottom:10px;flex-flow:row}footer .wrapper div:hover{border-right:1px solid #f5d378}footer .wrapper div h2{font-size:12px;margin-bottom:10px}footer .wrapper div.social-list{border-right:none}footer .wrapper div.social-list li{display:inline}footer .wrapper div.social-list i{padding-top:15px;font-size:15px;padding-right:12px}.hero{margin:0 auto 20px}.hero .hero-content{text-align:center;padding:90px 100px;width:100%}.hero .hero-content h1{margin-bottom:20px;color:white}@media (max-width: 600px){.hero .hero-content h1{font-size:12px}}@media (min-width: 601px) and (max-width: 900px){.hero .hero-content h1{font-size:32px}}.hero .hero-content p{margin-bottom:50px;color:white;font-weight:400;text-transform:uppercase}@media (max-width: 600px){.hero .hero-content p{font-size:10px}}.hero .hero-content .link-btn{color:white}.hero .hero-bg{background-image:url("https://i.imgur.com/iiQ8OQh.jpg");background-position:center;background-size:100%;background-repeat:no-repeat}.grid{max-width:1180px;width:80%;margin:0 auto;height:600px;font-size:0}.grid h4{font-size:14px}.grid .column{font-size:12px;max-width:25%;width:100%;display:inline-block;vertical-align:top;height:100%;background:#95dbd9}.grid .column .item{height:33.33%;width:100%}.grid .column .item article{position:relative;top:50%;text-align:center;transform:translatey(-50%);margin:0 auto}.grid .column .item.yellow{background:#f5d378}.grid .column .item.mint{background:#d8ece7}.grid .column .item.light-mint{background:#d8ece7}.grid .column .item.xl{height:66.66%;background:#ebedec}figure{text-align:center;display:inline-block;padding:0 30px;position:relative}figure:before{content:"";display:block;width:20px;height:1px;background:#a1a1a1;left:0;top:50%;position:absolute}figure:after{content:"";display:block;width:20px;height:1px;background:#a1a1a1;right:0;top:50%;position:absolute}.texto{padding-top:20px}.fa-arrow-left{margin-bottom:10px}.newsletter{height:2%;width:80%;text-align:center;margin:60px auto}.newsletter h2{margin-bottom:15px}.newsletter .newsform{margin:40px;font-size:0}.newsletter .newsform .write-email{padding:8px 10px;border:1px solid #95dbd9;font-family:"Lato",sans-serif;width:200px}.newsletter .newsform .submit-btn{background-color:#95dbd9;border:1px solid #95dbd9;font-family:"Lato",sans-serif;padding:8px;transition:all 0.2s ease-in-out}.newsletter .newsform .submit-btn:hover{border:1px solid #f5d378;cursor:pointer}.the-carousel{background:#cfcfcf;height:100px;text-align:center;margin:auto;width:80%;margin-bottom:50px}.the-carousel p{top:50%;transform:translateY(-50%);position:relative}.sugestion{text-align:center;margin:30px 0;font-size:18px;font-style:italic}.contact .contact-hero{width:80%;margin:40px auto;text-align:center}.contact .form-area{width:60%;max-width:800px;margin:40px auto;text-align:center}.contact .name,.contact .email{text-align:left}.contact #name,.contact #email,.contact #message,.contact .dropdown{border:1px solid #95dbd9;padding:1em;display:block;width:100%;margin-top:1em;margin-bottom:2em;resize:none}.contact #message{height:150px}.contact .half{float:left;width:48%;margin-bottom:1em}.contact .left{margin-right:2%}.contact .right{width:50%}.contact #input-submit{width:20%;cursor:pointer;border:1px solid #95dbd9;color:white;padding:10px;font-size:11px;background:#95dbd9;transition:all 0.2s ease-in-out;text-transform:uppercase}.contact #input-submit:hover{border:1px solid #f5d378}.section-page{width:80%;margin-left:20px;font-size:12px;text-transform:uppercase}.section-page .section-link{margin-right:10px}.section-page .section-link2{margin-left:10px}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../../../OneDrive/Desktop/edit/edit/scss/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../../../OneDrive/Desktop/edit/edit/scss/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../../../OneDrive/Desktop/edit/edit/scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../../../OneDrive/Desktop/edit/edit/scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../../../OneDrive/Desktop/edit/edit/scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../../../OneDrive/Desktop/edit/edit/scss/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../../../OneDrive/Desktop/edit/edit/scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 49, ../../../OneDrive/Desktop/edit/edit/scss/_reset.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 53, ../../../OneDrive/Desktop/edit/edit/scss/_reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* !!!!!!! variables !!!!!! */
+/*fonts*/
+/*font size*/
+/*website colors*/
+/* !!!!!!! ELEMENTS !!!!!! */
+/* line 25, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+body {
+  color: #595959;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  line-height: 20px;
+}
+
+/*headings*/
+/* line 34, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+h1,
+h2 {
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+/* line 42, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+/* line 47, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+h2 {
+  font-size: 20px;
+}
+
+/* line 51, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/* line 57, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+a {
+  color: #a1a1a1;
+  transition: all 0.2s ease 0s;
+}
+
+/* line 60, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+a:hover {
+  color: #95dbd9;
+}
+
+/* line 65, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+p {
+  margin-bottom: 10px;
+}
+
+/* line 69, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+li {
+  line-height: 20px;
+}
+
+/* line 73, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+section {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* divider */
+/* line 82, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+hr {
+  height: 1px;
+  background-color: #cfcfcf;
+  border: none;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+/* !!!!!!! CLASSES !!!!!! */
+/*button*/
+/* line 95, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+.active {
+  color: #95dbd9;
+}
+
+/* line 99, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+.sections {
+  margin: 20px 20px;
+}
+
+/* line 103, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+.submit-btn {
+  background-color: #95dbd9;
+  border: 1px solid #95dbd9;
+  font-family: "Lato", sans-serif;
+  padding: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 110, ../../../OneDrive/Desktop/edit/edit/scss/_config.scss */
+.submit-btn:hover {
+  border: 1px solid #f5d378;
+  cursor: pointer;
+}
+
+/* !!!!!!! MIXINS !!!!!! */
+/* BREAKPOINTS 
+xs/phone
+sm/tablet
+md/desktop
+lg/large device
+
+
+*/
+/*mixins media query*/
+/*
+@mixin mq-phone {
+  @media (max-width: 600px) {
+    @content;
+  }
+}*/
+/* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header {
+  width: 100%;
+  border-bottom: 1px solid #f5d378;
+  margin-bottom: 30px;
+}
+
+/* line 6, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* line 7, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header nav .cont {
+  display: flex;
+  justify-content: flex-start;
+  background: azure;
+  width: 100%;
+}
+
+@media (max-width: 599px) {
+  /* line 7, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  header nav .cont {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* line 22, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header nav div .logo {
+  margin-right: 20px;
+  height: 30px;
+}
+
+@media (max-width: 599px) {
+  /* line 6, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  header nav {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* line 46, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header nav .me {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 51, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header nav .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: crimson;
+}
+
+@media (max-width: 599px) {
+  /* line 51, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  header nav .menu {
+    display: block;
+    background: #ebedec;
+    width: 100%;
+    align-items: left;
+  }
+}
+
+/* line 65, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header nav .menu li {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+@media (max-width: 599px) {
+  /* line 65, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  header nav .menu li {
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+  }
+  /* line 72, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  header nav .menu li:hover {
+    background: #d8ece7;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 77, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  header nav .menu li a {
+    display: block;
+    padding-bottom: 10px;
+  }
+}
+
+/* line 86, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header nav .fas {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+@media (max-width: 599px) {
+  /* line 86, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  header nav .fas {
+    display: none;
+  }
+}
+
+/* line 96, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header nav .search button {
+  width: 22px;
+  height: 22px;
+  background: #95dbd9;
+  color: white;
+  font-size: 12px;
+  border: 0;
+  border-left: none;
+  cursor: pointer;
+}
+
+/* line 105, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header nav .search button:hover {
+  border: 1px solid #f5d378;
+}
+
+/* line 113, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+.menu-btn {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  /* line 113, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  .menu-btn {
+    display: block;
+    padding: 2vw;
+    font-size: 5vh;
+    background-color: #f5d378;
+    border: none;
+    align-self: flex-start;
+    /*outline none removes the default blue border that appears anytime you click on the button*/
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 130, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  .logo-menu {
+    padding: 20px;
+    background: #ebedec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+footer {
+  background: #fafafa;
+  height: 5%;
+  padding: 10px 10px 20px;
+  font-size: 13px;
+  margin: auto;
+  width: 90%;
+}
+
+/* line 9, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+footer .wrapper {
+  max-width: 1180px;
+  border: none;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 15, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+footer .wrapper:hover {
+  border: none;
+}
+
+@media (max-width: 599px) {
+  /* line 9, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+  footer .wrapper {
+    display: block;
+    text-align: center;
+    border-left: 1px solid #95dbd9;
+    border-right: 1px solid #95dbd9;
+  }
+}
+
+/* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+footer .wrapper div {
+  border-right: 1px solid #95dbd9;
+  line-height: 10px;
+  flex-basis: 25%;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-flow: row;
+}
+
+@media (max-width: 599px) {
+  /* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+  footer .wrapper div {
+    border-right: none;
+  }
+}
+
+/* line 39, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+footer .wrapper div:hover {
+  border-right: 1px solid #f5d378;
+}
+
+/* line 43, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+footer .wrapper div h2 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* line 48, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+footer .wrapper div.social-list {
+  border-right: none;
+}
+
+/* line 50, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+footer .wrapper div.social-list li {
+  display: inline;
+}
+
+/* line 54, ../../../OneDrive/Desktop/edit/edit/scss/_footer.scss */
+footer .wrapper div.social-list i {
+  padding-top: 15px;
+  font-size: 15px;
+  padding-right: 12px;
+}
+
+/* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
+.hero {
+  width: 100%;
+  height: 100%;
+  background: yellow;
+}
+
+/* line 6, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
+.hero .hero-content {
+  text-align: center;
+  padding: 90px 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 599px) {
+  /* line 6, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
+  .hero .hero-content {
+    padding: 20px;
+  }
+}
+
+/* line 17, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
+.hero .hero-content h1 {
+  color: white;
+  line-height: 50px;
+}
+
+@media (max-width: 599px) {
+  /* line 17, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
+  .hero .hero-content h1 {
+    font-size: 32px;
+    color: #95dbd9;
+  }
+}
+
+/* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
+.hero .hero-content p {
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 35, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
+.hero .hero-content .link-btn {
+  border: 1px solid #89ccca;
+  color: white;
+  background: transparent;
+  padding: 15px 30px;
+  letter-spacing: 0.1em;
+  font-size: 13px;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+  min-width: 100px;
+  max-width: 300px;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 48, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
+.hero .hero-content .link-btn:hover {
+  border: 1px solid #f5d378;
+}
+
+@media (max-width: 599px) {
+  /* line 35, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
+  .hero .hero-content .link-btn {
+    padding: 10px;
+  }
+}
+
+/* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+.grid {
+  max-width: 1180px;
+  margin: 0 auto;
+  height: 700px;
+  font-size: 0;
+}
+
+/* line 7, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+.grid .column {
+  font-size: 12px;
+  max-width: 25%;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  background: #95dbd9;
+}
+
+/* line 21, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+.grid .column .item {
+  height: 33.33%;
+  width: 100%;
+}
+
+/* line 30, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+.grid .column .item article {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translatey(-50%);
+  margin: 0 auto;
+}
+
+/* line 37, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+.grid .column .item article .fa-arrow-left,
+.grid .column .item article .fa-twitter {
+  margin-bottom: 15px;
+}
+
+/* line 45, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+.grid .column .item.yellow {
+  background: #f5d378;
+}
+
+/* line 48, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+.grid .column .item.mint {
+  background: #d8ece7;
+}
+
+/* line 52, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+.grid .column .item.light-mint {
+  background: #d8ece7;
+}
+
+/* line 56, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+.grid .column .item.xl {
+  height: 66.66%;
+  background: #ebedec;
+}
+
+/* line 66, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+figure {
+  text-align: center;
+  display: inline-block;
+  padding: 0 30px;
+  position: relative;
+}
+
+/* line 72, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+figure:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 1px;
+  background: #a1a1a1;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+/* line 82, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
+figure:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 1px;
+  background: #a1a1a1;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+/* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_newsletter.scss */
+.newsletter {
+  height: 2%;
+  margin: 60px auto;
+}
+
+/* line 5, ../../../OneDrive/Desktop/edit/edit/scss/_newsletter.scss */
+.newsletter .newsform {
+  margin: 40px;
+  font-size: 0;
+}
+
+/* line 9, ../../../OneDrive/Desktop/edit/edit/scss/_newsletter.scss */
+.newsletter .newsform .write-email {
+  padding: 8px 10px;
+  border: 1px solid #95dbd9;
+  font-family: "Lato", sans-serif;
+  width: 200px;
+}
+
+@media (max-width: 599px) {
+  /* line 9, ../../../OneDrive/Desktop/edit/edit/scss/_newsletter.scss */
+  .newsletter .newsform .write-email {
+    width: 150px;
+  }
+}
+
+/* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.the-carousel {
+  background: #cfcfcf;
+  height: 100px;
+}
+
+/* line 5, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.the-carousel p {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+/*sugestion text*/
+/* line 13, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.sugestion {
+  margin: 30px 0;
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_contact.scss */
+.form-area {
+  width: 60%;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* line 7, ../../../OneDrive/Desktop/edit/edit/scss/_contact.scss */
+.name,
+.email {
+  text-align: left;
+}
+
+/* line 12, ../../../OneDrive/Desktop/edit/edit/scss/_contact.scss */
+#name,
+#email,
+#message,
+.dropdown {
+  border: 1px solid #95dbd9;
+  background: transparent;
+  padding: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  resize: none;
+}
+
+/* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_contact.scss */
+#message {
+  height: 150px;
+}
+
+/* line 30, ../../../OneDrive/Desktop/edit/edit/scss/_contact.scss */
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+/* line 36, ../../../OneDrive/Desktop/edit/edit/scss/_contact.scss */
+.left {
+  margin-right: 2%;
+}
+
+/* line 40, ../../../OneDrive/Desktop/edit/edit/scss/_contact.scss */
+.right {
+  width: 50%;
+}
+
+/* line 44, ../../../OneDrive/Desktop/edit/edit/scss/_contact.scss */
+#input-submit {
+  max-width: 300px;
+  cursor: pointer;
+  border: 1px solid #95dbd9;
+  padding: 10px 15px;
+  font-family: "Lato", sans-serif;
+  background: #95dbd9;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* line 54, ../../../OneDrive/Desktop/edit/edit/scss/_contact.scss */
+#input-submit:hover {
+  border: 1px solid #f5d378;
+}
+
+/* line 2, ../../../OneDrive/Desktop/edit/edit/scss/_about.scss */
+.about {
+  text-align: left;
+}
+
+/* line 5, ../../../OneDrive/Desktop/edit/edit/scss/_about.scss */
+.about aside {
+  width: 48%;
+  background: #ebedec;
+  display: inline-block;
+}
+
+/* line 9, ../../../OneDrive/Desktop/edit/edit/scss/_about.scss */
+.about aside:nth-of-type(1) {
+  margin-right: 1%;
+}
+
+/* line 12, ../../../OneDrive/Desktop/edit/edit/scss/_about.scss */
+.about aside:nth-of-type(2) {
+  margin-left: 1%;
+}
+
+/* line 16, ../../../OneDrive/Desktop/edit/edit/scss/_about.scss */
+.about aside p,
+.about aside h2 {
+  padding: 10px;
+}
+
+/*slider mock up */
+/* line 3, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.slider {
+  width: 100%;
+  height: 400px;
+  background: #ebedec;
+  margin-bottom: 30px;
+  position: relative;
+  margin-top: 20px;
+}
+
+/* line 11, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.slider .blocks {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #ebedec;
+  margin-left: 1070px;
+  opacity: 0.6;
+  border: 1px solid white;
+  z-index: 2;
+}
+
+/* line 22, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.slider .block-one {
+  margin-top: 340px;
+}
+
+/* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.slider .block-two {
+  margin-top: 280px;
+}
+
+/* line 30, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.slider .block-three {
+  margin-top: 220px;
+}
+
+/*detailed product */
+/* line 37, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 42, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product .product-name {
+  margin-bottom: 20px;
+}
+
+/* line 44, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product .product-name p {
+  font-size: 10px;
+  color: #a1a1a1;
+}
+
+/* line 50, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product .price {
+  margin-bottom: 20px;
+}
+
+/* line 52, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product .price p {
+  font-style: italic;
+}
+
+/* line 57, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product .description {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/* line 63, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product .sizes {
+  margin-bottom: 20px;
+}
+
+/* line 66, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product .sizes p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* line 72, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product .sizes span {
+  display: inline-block;
+  border: 1px solid #ebedec;
+  padding: 5px;
+  width: 30px;
+}
+
+/* line 77, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product .sizes span:hover {
+  border: 1px solid #95dbd9;
+}
+
+/* line 81, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.detailed-product .sizes span.select {
+  border: 1px solid #95dbd9;
+}
+
+/* line 90, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.add-btn {
+  border: 1px solid #95dbd9;
+  background: #95dbd9;
+  padding: 10px 15px;
+  letter-spacing: 0.1em;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  max-width: 300px;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 101, ../../../OneDrive/Desktop/edit/edit/scss/_details.scss */
+.add-btn:hover {
+  border: 1px solid #f5d378;
+}
+
+/* line 3, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+.categories .category-name {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* line 10, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+.categories .show-more .fa-caret-right {
+  position: relative;
+  left: 5px;
+  top: 1px;
+}
+
+/* line 20, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+.products {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+.products .product-card {
+  flex-direction: row;
+  flex-basis: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* line 33, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+.products .product-image img {
+  width: 100%;
+}
+
+/* line 37, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+.products .product-info {
+  margin-top: auto;
+  padding-top: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+/*!! sections links, including the active one !! */
+/* line 3, ../../../OneDrive/Desktop/edit/edit/scss/_sections.scss */
+.section-page {
+  height: 40px;
+  margin: 0 auto;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* line 9, ../../../OneDrive/Desktop/edit/edit/scss/_sections.scss */
+.section-page .section-link {
+  margin-right: 10px;
+}
+
+/* line 13, ../../../OneDrive/Desktop/edit/edit/scss/_sections.scss */
+.section-page .section-link2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*heading page title*/
+/* line 4, ../../../OneDrive/Desktop/edit/edit/scss/_heading.scss */
+.heading .heading-hero {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one {
+  width: 90%;
+}
+
+/* line 4, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .checkout {
+  background: #ffff00;
+}
+
+/* line 7, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .checkout p {
+  align-items: center;
+}
+
+/* line 12, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .line-one {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebedec;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+/* line 20, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .line-one .reference {
+  font-size: 10px;
+  font-style: italic;
+  font-family: "Roboto Slab", serif;
+}
+
+/* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .line-one .product-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 32, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .line-one .teste img {
+  height: 80px;
+}
+
+/* line 36, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .line-one .teste .cart-price p {
+  display: inline;
+  text-transform: uppercase;
+}
+
+/* line 44, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .subtotal {
+  background-color: #ebedec;
+  font-weight: bold;
+  font-size: 13px;
+  height: 50px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* line 53, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .subtotal .sub-title {
+  padding-right: 20px;
+}
+
+/* line 57, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .subtotal .total-value {
+  color: #95dbd9;
+  padding-right: 20px;
+}
+
+/* line 63, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .order {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+/* line 69, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .order a {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */

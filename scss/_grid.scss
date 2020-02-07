@@ -1,13 +1,9 @@
 .grid {
   max-width: 1180px;
-  width: 80%;
   margin: 0 auto;
-  height: 600px;
+  height: 700px;
   font-size: 0;
 
-  h4 {
-    font-size: 14px;
-  }
   .column {
     font-size: 12px;
     max-width: 25%;
@@ -17,9 +13,19 @@
     height: 100%;
     background: $mintcolor;
 
+    // @include for-phone {
+    //   display: block;
+    //   max-width: 100%;
+    // }
+
     .item {
       height: 33.33%;
       width: 100%;
+
+      // @include for-phone {
+      //   display: block;
+      //   max-width: 100%;
+      // }
 
       article {
         position: relative;
@@ -27,7 +33,14 @@
         text-align: center;
         transform: translatey(-50%);
         margin: 0 auto;
+
+        .fa-arrow-left,
+        .fa-twitter {
+          margin-bottom: 15px;
+        }
       }
+
+      //different background color for items //
 
       &.yellow {
         background: $yellowcolor;
@@ -47,6 +60,8 @@
     }
   }
 }
+
+// twitter icons //
 
 figure {
   text-align: center;
@@ -74,12 +89,4 @@ figure {
     top: 50%;
     position: absolute;
   }
-}
-
-.texto {
-  padding-top: 20px;
-}
-
-.fa-arrow-left {
-  margin-bottom: 10px;
 }

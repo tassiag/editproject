@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Website</title>
+    <title>Contact us</title>
     <!--Generic meta-->
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale = 1.0, shrink-to-fit=no" />
@@ -43,6 +43,18 @@
 <!--Links-->
 <link rel="stylesheet" href="css/main.css" />
 
+<script src="https://code.jquery.com/jquery-3.4.1.js">
+</script>
+
+    <script type="text/javascript">
+       $(document).ready(function () {
+            $(".menu").click(function () {
+                $("ul").toggle();
+            });
+        });
+
+    </script>
+
 
 </head>
 <!--GA-->
@@ -75,48 +87,67 @@
 <body>
 
 
-    <!-- menu -->
+<!-- menu -->
+       
+<header>
+
+
+ <!--
+
+<div class="toggle">
+    <div class="menu"><i class="fas fa-bars"></i></div>
+</div>-->
+
+<header>
+   
+    <nav>  
+            <div class="menu">
+                <div><img class="logo" src="https://i.imgur.com/bDxYWJE.png"></div>
+            
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#" target="_blank">Shop</a></li>
+                        <li><a href="about.html" target="_blank">About us</a></li>
+                    </ul>
+                </div>
     
-    <header>
-        <nav>
-            <div class="logo-menu"><a href="index.html"><img class="logo" src="https://i.imgur.com/bDxYWJE.png"></a></div>
-    
-            <div class="firstlist">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="http://globo.com" target="_blank">Shop</a></li>
-                    <li><a href="" target="_blank">About us</a></li>
-                </ul>
             </div>
-    
-            <div class="secondlist">
-                <ul>
-                    <li><a href="fhf">Login <i class="fas fa-user"></i></a></li>
-                    <li><a href="fhf">Shopping cart <i class="fas fa-shopping-basket"></i></a></li>
-                    <li><form class="search-form">
-                        <input class="search" type="text" placeholder="Search" name="search"><button type="submit">
-                            <i class="fa fa-search"></i></button>
-                    </form></li>
-                </ul>
-            </div>
-    
-    
-        </nav>
-    </header>
-
-    <hr>
-
-    <div class="section-page">
-        <a class="section-link" href="">Home</a> / <a  class="section-link2" href="">About</a>
-    </div>
 
     
+            <div class="menu me">
+                <div>
+                    <ul>
+                     <li><i class="fas fa-user"></i><a href="fhf">Login </a></li>
+                     <li><i class="fas fa-shopping-basket"></i><a href="fhf">Shopping cart </a></li>
+                    </ul>
+                 </div>
+            
+                 <div class="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+    
+             </div>
+    </nav> 
+   
+</header>
 
-    <section class="contact">
-        <div class="contact-hero">
+<!-- END menu -->
+
+
+
+<!-- sections links  -->
+    <section class="section-page">
+        <a class="section-link" href="index.html">Home</a> / <a class="section-link2" href="about.html">About</a> /  <a class="section-link2 active" href="contact.html">Contact</a> 
+    </section>
+    
+<!-- END sections links  -->
+    
+<!-- contact heading & form  -->
+    <section class="heading">
+        <div class="heading-hero">
             <h2>Contact us</h2>
             <p>If you want to talk to us, send us a message.</p>
-
         </div>
 
         <form class="form-area">
@@ -144,17 +175,24 @@
             <input type="submit" value="submit" id="input-submit">
         </form>
         <br>
-       
-
+    
     </section>
+<!-- END contact heading & form  -->
+
    
-      <hr>
-    <section class="carousel">
-   <p class="sugestion">You may also like</p>
-        <div class="the-carousel">
-            
-            <p>Carrossel</p>
-        </div>
+<!-- divider -->
+<hr>
+<!-- divider -->
+
+<!--carousel section-->
+<section class="carousel">
+    <p class="sugestion">You may also like</p>
+    <div class="the-carousel">
+        <p>Carrossel</p>
+    </div>
+</section>
+<!--END carousel section-->
+    
       
 
 <!--footer -->
@@ -196,8 +234,6 @@
                 <li><a href=""><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
-
-
     </div>
 
 </footer>

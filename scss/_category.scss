@@ -1,0 +1,43 @@
+//products categories heading //
+.categories {
+  .category-name {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .show-more {
+    .fa-caret-right {
+      position: relative;
+      left: 5px;
+      top: 1px;
+    }
+  }
+}
+
+//products listing //
+
+.products {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  .product-card {
+    flex-direction: row;
+    flex-basis: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .product-image img {
+    width: 100%;
+  }
+
+  .product-info {
+    margin-top: auto;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+}

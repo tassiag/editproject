@@ -1,12 +1,6 @@
 .newsletter {
   height: 2%;
-  width: 80%;
-  text-align: center;
   margin: 60px auto;
-
-  h2 {
-    margin-bottom: 15px;
-  }
 
   .newsform {
     margin: 40px;
@@ -17,18 +11,8 @@
       border: 1px solid $mintcolor;
       font-family: $mainfont;
       width: 200px;
-    }
-
-    .submit-btn {
-      background-color: $mintcolor;
-      border: 1px solid $mintcolor;
-      font-family: $mainfont;
-      padding: 8px;
-      transition: all 0.2s ease-in-out;
-
-      &:hover {
-        border: 1px solid $yellowcolor;
-        cursor: pointer;
+      @include for-phone {
+        width: 150px;
       }
     }
   }

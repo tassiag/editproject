@@ -1,10 +1,10 @@
 footer {
-  background: #f0f0f0;
+  background: #fafafa;
   height: 5%;
-  padding: 10px;
+  padding: 10px 10px 20px;
   font-size: 13px;
-  width: 80%;
   margin: auto;
+  width: 90%;
 
   .wrapper {
     max-width: 1180px;
@@ -16,15 +16,25 @@ footer {
       border: none;
     }
 
+    @include for-phone {
+      display: block;
+      text-align: center;
+      border-left: 1px solid $mintcolor;
+      border-right: 1px solid $mintcolor;
+    }
+
     div {
       border-right: 1px solid $mintcolor;
       line-height: 10px;
       flex-basis: 25%;
-
       padding-left: 15px;
       padding-top: 10px;
       padding-bottom: 10px;
       flex-flow: row;
+
+      @include for-phone {
+        border-right: none;
+      }
 
       &:hover {
         border-right: 1px solid $yellowcolor;
