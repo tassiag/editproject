@@ -63,14 +63,14 @@
       src="https://kit.fontawesome.com/c063af1f03.js"
       crossorigin="anonymous"
     ></script>
+  
   </head>
   <!--Links-->
   <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
 
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
 
     </head>
@@ -104,25 +104,7 @@
   <body>
   <!-- menu -->
   
-  <header>
-  
-  
-    <!--
-  
-  <div class="toggle">
-      <div class="menu"><i class="fas fa-bars"></i></div>
-  </div>-->
-  
-    <!-- menu -->
-    
-    <header>
-    
-    
-      <!--
-    
-    <div class="toggle">
-        <div class="menu"><i class="fas fa-bars"></i></div>
-    </div>-->
+
     
       <header>
     
@@ -133,10 +115,11 @@
             <div>
               <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#" target="_blank">Shop</a></li>
+                <li><a href="category.html" >Shop</a></li>
                 <li><a href="about.html" target="_blank">About us</a></li>
               </ul>
             </div>
+
     
           </div>
     
@@ -145,13 +128,11 @@
             <div>
               <ul>
                 <li><i class="fas fa-user"></i><a href="fhf">Login </a></li>
-                <li><i class="fas fa-shopping-basket"></i><a href="fhf">Shopping cart </a></li>
+                <li><i class="fas fa-shopping-basket"></i><a href="checkoutone.html">Shopping cart </a></li>
               </ul>
             </div>
     
-            <div class="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </div>
+           
     
           </div>
         </nav>
@@ -161,28 +142,63 @@
     
     <!-- END menu -->
 
-    <!-- END menu -->
+ 
 
     <!-- divider 
   <hr>
 divider -->
 
-    <!-- hero  -->
 
-    <section class="hero">
-      <div
-        class="hero-content"
-        style="background-image: url(https://i.imgur.com/iiQ8OQh.jpg);
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;"
-      >
-        <h1>Plants & decor</h1>
-        <p>Plants & decor.Plants & decor.Plants & decor.</p>
-        <a class="link-btn" href="">Confira as novidades</a>
+
+    <!-- carrossel -->
+
+    <div class="wrap">
+      <div id="arrow-left" class="arrow"></div>
+      <div id=slider>
+        <div class="slide slide1">
+          <div class="slide-content">
+            <h1>Plants & decor</h1>
+            <p>Plants & decor.Plants & decor.Plants & decor.</p>
+            <a class="link-btn" href="">Confira as novidades</a>
+            
+          </div>
+        </div>
+
+          <div class="slide slide2">
+            <div class="slide-content">
+                <span>Image 2</span>
+            </div>
+          </div>
+
+          <div class="slide slide3">
+            <div class="slide-content">
+              <span>Image 3</span>
+              </div>
+          </div>
       </div>
-    </section>
-    <!-- END hero  -->
+      <div id="arrow-right" class="arrow"></div>
+
+    </div>
+
+
+    <!-- carossel 1
+    <div class="galleryContainer">
+      <div class="buttonNextImage">
+        <p>Next</p>
+      </div>
+
+      <div class="buttonPrevImage">
+       <p>Previous</p>
+      </div>
+    
+      <div class="images">
+        <img class="image"
+          src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" />
+        <img class="image"
+          src="https://media.gettyimages.com/photos/woman-lifts-her-arms-in-victory-mount-everest-national-park-picture-id507910624?s=612x612" />
+        <img class="image" src="https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg" />
+      </div>
+    </div>-->
 
     <!--  ** grid  **  -->
     <section class="grid">
@@ -283,8 +299,8 @@ divider -->
     </section>
     <!--END newsletter section-->
 
-    <!--carousel section-->
-    <section class="carousel">
+    <!--carousel slick section-->
+    <section class="slick-carousel">
       <div class="the-carousel">
       
           <div>your content</div>
@@ -341,53 +357,12 @@ divider -->
         </div>
       </div>
     </footer>
-    <script src="jquery-3.4.0.min.js"></script>
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-
    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
     
-    <!-- script below -->
-    <script type="text/javascript">
-      $(document).ready(function () {
-        /* function called when you click of the button */
-        $(".menu-btn").click(function () {
-
-          /* this if else to change the text in the button */
-          if ($(".menu-btn ").text() == "☰") {
-            $(".menu-btn").text("🞬");
-          } else {
-            $(".menu-btn").text("☰");
-          }
-
-          /* this function toggle the visibility of our "li" elements */
-          $("li").toggle("slow");
-        });
-      });
-    </script>
-  </body>
-
- 
-  <script src="jquery-3.4.0.min.js"></script>
-  
-  <!-- script below -->
-  <script type="text/javascript">
-   $(document).ready(function () {
-      /* function called when you click of the button */
-      $(".menu-btn").click(function () {
-
-        /* this if else to change the text in the button */
-        if ($(".menu-btn ").text() == "☰") {
-          $(".menu-btn").text("🞬");
-        } else {
-          $(".menu-btn").text("☰");
-        }
-
-        /* this function toggle the visibility of our "li" elements */
-        $("li").toggle("slow");
-      });
-    });
-  </script>
+    </body>
 </html>

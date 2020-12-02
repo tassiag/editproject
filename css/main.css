@@ -258,7 +258,6 @@ header nav .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: crimson;
 }
 
 @media (max-width: 599px) {
@@ -271,71 +270,54 @@ header nav .menu {
   }
 }
 
-/* line 65, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+/* line 64, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
 header nav .menu li {
   margin-right: 20px;
   display: inline-block;
 }
 
 @media (max-width: 599px) {
-  /* line 65, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  /* line 64, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
   header nav .menu li {
     flex-direction: column;
     padding: 20px;
     width: 100%;
   }
-  /* line 72, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  /* line 71, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
   header nav .menu li:hover {
     background: #d8ece7;
   }
 }
 
 @media (max-width: 599px) {
-  /* line 77, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  /* line 76, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
   header nav .menu li a {
     display: block;
     padding-bottom: 10px;
   }
 }
 
-/* line 86, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+/* line 85, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
 header nav .fas {
   margin-right: 5px;
   font-size: 12px;
 }
 
 @media (max-width: 599px) {
-  /* line 86, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  /* line 85, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
   header nav .fas {
     display: none;
   }
 }
 
-/* line 96, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
-header nav .search button {
-  width: 22px;
-  height: 22px;
-  background: #95dbd9;
-  color: white;
-  font-size: 12px;
-  border: 0;
-  border-left: none;
-  cursor: pointer;
-}
-
-/* line 105, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
-header nav .search button:hover {
-  border: 1px solid #f5d378;
-}
-
-/* line 113, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
-.menu-btn {
+/* line 94, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+header nav .menu-btn {
   display: none;
 }
 
 @media (max-width: 599px) {
-  /* line 113, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
-  .menu-btn {
+  /* line 94, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  header nav .menu-btn {
     display: block;
     padding: 2vw;
     font-size: 5vh;
@@ -349,8 +331,8 @@ header nav .search button:hover {
 }
 
 @media (max-width: 599px) {
-  /* line 130, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
-  .logo-menu {
+  /* line 111, ../../../OneDrive/Desktop/edit/edit/scss/_header.scss */
+  header nav .logo-menu {
     padding: 20px;
     background: #ebedec;
     display: flex;
@@ -439,76 +421,10 @@ footer .wrapper div.social-list i {
   padding-right: 12px;
 }
 
-/* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
-.hero {
-  width: 100%;
-  height: 100%;
-  background: yellow;
-}
-
-/* line 6, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
-.hero .hero-content {
-  text-align: center;
-  padding: 90px 100px;
-  width: 100%;
-  overflow: hidden;
-}
-
-@media (max-width: 599px) {
-  /* line 6, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
-  .hero .hero-content {
-    padding: 20px;
-  }
-}
-
-/* line 17, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
-.hero .hero-content h1 {
-  color: white;
-  line-height: 50px;
-}
-
-@media (max-width: 599px) {
-  /* line 17, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
-  .hero .hero-content h1 {
-    font-size: 32px;
-    color: #95dbd9;
-  }
-}
-
-/* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
-.hero .hero-content p {
-  margin-bottom: 50px;
-  color: white;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-/* line 35, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
-.hero .hero-content .link-btn {
-  border: 1px solid #89ccca;
-  color: white;
-  background: transparent;
-  padding: 15px 30px;
-  letter-spacing: 0.1em;
-  font-size: 13px;
-  font-family: "Roboto Slab", serif;
-  text-transform: uppercase;
-  min-width: 100px;
-  max-width: 300px;
-  display: inline-block;
-  transition: all 0.2s ease-in-out;
-}
-
-/* line 48, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
-.hero .hero-content .link-btn:hover {
-  border: 1px solid #f5d378;
-}
-
-@media (max-width: 599px) {
-  /* line 35, ../../../OneDrive/Desktop/edit/edit/scss/_hero.scss */
-  .hero .hero-content .link-btn {
-    padding: 10px;
-  }
+/* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_slick-carousel.scss */
+.the-carousel {
+  background-color: #cfcfcf;
+  height: 100px;
 }
 
 /* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_grid.scss */
@@ -632,24 +548,145 @@ figure:after {
 }
 
 /* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
-.the-carousel {
-  background: #cfcfcf;
-  height: 100px;
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60vh;
+  overflow-x: hidden;
 }
 
-/* line 5, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
-.the-carousel p {
-  top: 50%;
-  transform: translateY(-50%);
+/* line 11, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.wrap {
   position: relative;
+  margin-bottom: 40px;
 }
 
-/*sugestion text*/
-/* line 13, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
-.sugestion {
-  margin: 30px 0;
-  font-size: 16px;
-  font-style: italic;
+/* line 16, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 22, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.slide1 {
+  background-image: url("https://i.imgur.com/iiQ8OQh.jpg");
+}
+
+/* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.slide2 {
+  background-image: url("https://i.imgur.com/Sq4KSny.jpg");
+}
+
+/* line 30, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.slide3 {
+  background-image: url("https://i.imgur.com/5MRcQYB.jpg");
+}
+
+/* line 34, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 42, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.slide-content h1 {
+  color: white;
+  line-height: 50px;
+}
+
+@media (max-width: 599px) {
+  /* line 42, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+  .slide-content h1 {
+    font-size: 32px;
+    color: #95dbd9;
+  }
+}
+
+/* line 52, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.slide-content p {
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 61, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.slide-content .link-btn {
+  border: 1px solid #89ccca;
+  color: white;
+  background: transparent;
+  padding: 15px 30px;
+  letter-spacing: 0.1em;
+  font-size: 13px;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+  min-width: 100px;
+  max-width: 300px;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 74, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.slide-content .link-btn:hover {
+  border: 1px solid #f5d378;
+}
+
+@media (max-width: 599px) {
+  /* line 61, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+  .slide-content .link-btn {
+    padding: 10px;
+  }
+}
+
+/* line 84, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+/* line 94, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #95dbd9 transparent transparent;
+  left: 0;
+  margin-left: 30px;
+  opacity: 0.5;
+}
+
+/* line 102, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+#arrow-left:hover {
+  opacity: 1;
+  border-color: transparent #ebedec transparent transparent;
+  transition: all 0.5s;
+}
+
+/* line 108, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #95dbd9;
+  right: 0;
+  margin-right: 30px;
+  opacity: 0.5;
+}
+
+/* line 116, ../../../OneDrive/Desktop/edit/edit/scss/_carousel.scss */
+#arrow-right:hover {
+  opacity: 1;
+  border-color: transparent transparent transparent #ebedec;
+  transition: all 0.5s;
 }
 
 /* line 1, ../../../OneDrive/Desktop/edit/edit/scss/_contact.scss */
@@ -872,21 +909,21 @@ figure:after {
   border: 1px solid #f5d378;
 }
 
-/* line 3, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+/* line 4, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
 .categories .category-name {
   width: 80%;
   margin: 40px auto;
   text-align: center;
 }
 
-/* line 10, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+/* line 11, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
 .categories .show-more .fa-caret-right {
   position: relative;
   left: 5px;
   top: 1px;
 }
 
-/* line 20, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+/* line 21, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
 .products {
   width: 80%;
   margin: auto;
@@ -894,7 +931,7 @@ figure:after {
   flex-wrap: wrap;
 }
 
-/* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+/* line 27, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
 .products .product-card {
   flex-direction: row;
   flex-basis: 25%;
@@ -902,12 +939,12 @@ figure:after {
   box-sizing: border-box;
 }
 
-/* line 33, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+/* line 34, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
 .products .product-image img {
   width: 100%;
 }
 
-/* line 37, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
+/* line 38, ../../../OneDrive/Desktop/edit/edit/scss/_category.scss */
 .products .product-info {
   margin-top: auto;
   padding-top: 20px;
@@ -950,51 +987,63 @@ figure:after {
 
 /* line 4, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .checkout {
-  background: #ffff00;
+  background: #d8ece7;
+  padding: 5px 10px;
 }
 
-/* line 7, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 8, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .checkout p {
   align-items: center;
+  font-weight: bold;
 }
 
-/* line 12, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 14, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+.shopping-cart-one .outro {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebedec;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 13px;
+}
+
+/* line 23, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .line-one {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ebedec;
   align-items: center;
-  padding-top: 10px;
   font-size: 13px;
 }
 
-/* line 20, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 30, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .line-one .reference {
   font-size: 10px;
   font-style: italic;
   font-family: "Roboto Slab", serif;
 }
 
-/* line 26, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 36, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .line-one .product-title {
   font-weight: 700;
   text-transform: uppercase;
 }
 
-/* line 32, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 42, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .line-one .teste img {
   height: 80px;
 }
 
-/* line 36, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 46, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .line-one .teste .cart-price p {
   display: inline;
   text-transform: uppercase;
 }
 
-/* line 44, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 54, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .subtotal {
   background-color: #ebedec;
+  padding: 5px 10px;
   font-weight: bold;
   font-size: 13px;
   height: 50px;
@@ -1004,18 +1053,18 @@ figure:after {
   align-items: center;
 }
 
-/* line 53, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 64, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .subtotal .sub-title {
   padding-right: 20px;
 }
 
-/* line 57, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 68, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .subtotal .total-value {
   color: #95dbd9;
   padding-right: 20px;
 }
 
-/* line 63, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 74, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .order {
   margin-top: 20px;
   display: flex;
@@ -1023,7 +1072,7 @@ figure:after {
   margin-bottom: 100px;
 }
 
-/* line 69, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
+/* line 80, ../../../OneDrive/Desktop/edit/edit/scss/_checkoutone.scss */
 .shopping-cart-one .order a {
   text-decoration: underline;
 }

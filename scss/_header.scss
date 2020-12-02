@@ -52,7 +52,6 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: crimson;
 
       @include for-phone {
         //flex-direction: column;
@@ -92,47 +91,31 @@ header {
       }
     }
 
-    .search {
-      button {
-        width: 22px;
-        height: 22px;
-        background: $mintcolor;
-        color: white;
-        font-size: 12px;
-        border: 0;
-        border-left: none;
+    .menu-btn {
+      display: none;
+
+      @include for-phone {
+        display: block;
+        padding: 2vw;
+        font-size: 5vh;
+        background-color: $yellowcolor;
+        border: none;
+        align-self: flex-start;
+
+        /*outline none removes the default blue border that appears anytime you click on the button*/
+        outline: none;
         cursor: pointer;
-        &:hover {
-          border: 1px solid $yellowcolor;
-        }
       }
     }
-  }
-}
 
-.menu-btn {
-  display: none;
-
-  @include for-phone {
-    display: block;
-    padding: 2vw;
-    font-size: 5vh;
-    background-color: $yellowcolor;
-    border: none;
-    align-self: flex-start;
-
-    /*outline none removes the default blue border that appears anytime you click on the button*/
-    outline: none;
-    cursor: pointer;
-  }
-}
-
-.logo-menu {
-  @include for-phone {
-    padding: 20px;
-    background: $superlightgreycolor;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .logo-menu {
+      @include for-phone {
+        padding: 20px;
+        background: $superlightgreycolor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
   }
 }

@@ -2,11 +2,22 @@
   width: 90%;
 
   .checkout {
-    background: #ffff00;
+    background: $lightmintcolor;
+    padding: 5px 10px;
 
     p {
       align-items: center;
+      font-weight: bold;
     }
+  }
+
+  .outro {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $superlightgreycolor;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 13px;
   }
 
   .line-one {
@@ -14,7 +25,6 @@
     justify-content: space-between;
     border-bottom: 1px solid $superlightgreycolor;
     align-items: center;
-    padding-top: 10px;
     font-size: 13px;
 
     .reference {
@@ -43,6 +53,7 @@
 
   .subtotal {
     background-color: $superlightgreycolor;
+    padding: 5px 10px;
     font-weight: bold;
     font-size: 13px;
     height: 50px;
