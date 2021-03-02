@@ -48,12 +48,3 @@ arrowRight.addEventListener("click", function () {
   }
   slideRight();
 });
-
-//// search
-$(document).ready(function () {
-  $(".fa-search").click(function () {
-    $(".search, .input").toggleClass("active");
-    $("input[type='text']").focus();
-  });
-});
-////
